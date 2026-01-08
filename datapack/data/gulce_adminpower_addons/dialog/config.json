@@ -52,13 +52,6 @@
         { "id": "4" },
         { "id": "5" }
       ]
-    },
-    {
-      "type": "minecraft:boolean",
-      "key": "thc",
-      "label": "'/trigger ap_help-menu' Komutu",
-      "on_true": "add",
-      "on_false": "remove"
     }
   ],
   "can_close_with_escape": true,
@@ -72,7 +65,7 @@
       "width": 40,
       "action": {
         "type": "minecraft:dynamic/run_command",
-        "template": "/function gulce_adminpower_addons:config/load {\"load_second\":\"$(load_second)\",\"DisplayRules\":\"$(DisplayRules)\",\"cl_second\":\"$(cl_second)\",\"diamond_to_emerald_recipe\":\"$(diamond_to_emerald_recipe)\",\"level\":$(level),\"TriggerHelpCommand\":\"$(thc)\"}"
+        "template": "/function gulce_adminpower_addons:config/load {\"load_second\":\"$(load_second)\",\"DisplayRules\":\"$(DisplayRules)\",\"cl_second\":\"$(cl_second)\",\"diamond_to_emerald_recipe\":\"$(diamond_to_emerald_recipe)\",\"level\":$(level)}"
       }
     },
     {
@@ -85,7 +78,7 @@
       }
     },
     {
-      "label": "Gelişmiş Ayarlar",
+      "label": "Gelişmiş",
       "tooltip": "Sunucu kontrol panelini açar",
       "width": 41,
       "action": {
