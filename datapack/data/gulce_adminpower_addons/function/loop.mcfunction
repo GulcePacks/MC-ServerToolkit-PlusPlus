@@ -12,3 +12,4 @@ data modify storage custom:storage Log set from storage userfunc:log
 function custom:permissions/builder/tick
 data modify storage custom:storage Data set from storage userfunc:data
 function gulce_adminpower_addons:help_menu/tick
+function custom:freeze_handler
