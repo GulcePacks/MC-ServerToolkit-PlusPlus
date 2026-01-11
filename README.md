@@ -159,6 +159,93 @@ Silinmeleri veya değiştirilmleri datapack’in bozulmasına neden olabilir.
 
 <hr>
 
+<details>
+<summary><strong>❓ Sık Sorulan Sorular (Minecraft Demo Sürümü)</strong></summary>
+
+**• Datapack neden Demo sürümünde çalışmıyor?**  
+Minecraft Demo sürümü; `/function`, komut yetkileri, macro, storage ve dialog gibi gelişmiş sistemleri bilinçli olarak kısıtlar. Bu datapack, bu sistemlere dayandığı için Demo ortamında çalışamaz.
+
+**• Bu bir bug mi?**  
+Hayır. Bu davranış Minecraft Demo sürümünün tasarımından kaynaklanır. Datapack, tam sürümde vanilla kurallarına uygun şekilde çalışır.
+
+**• Demo için özel bir sürüm yapabilir misiniz?**  
+Hayır. Demo sürümündeki kısıtlamalar vanilla yöntemlerle aşılamaz. Bu nedenle ayrı bir Demo uyumlu sürüm sağlanmayacaktır.
+
+**• Demo sürümünde neden bazı komutlar hiç çalışmıyor?**  
+Demo, operator (op) seviyelerini ve komut yürütmeyi sınırlar. Bu da datapack’in çekirdek işlevlerinin devre dışı kalmasına yol açar.
+
+**• Hangi sürümlerde sorunsuz çalışır?**  
+Minecraft Java Edition **tam sürüm**,  
+Tek oyunculu, çok oyunculu sunucular ve Realms,  
+**Minecraft 1.21.7 ve üzeri**
+
+---
+
+<details>
+<summary><strong>🛡️ Güvenli mi? Tick-safe mi?</strong></summary>
+
+Evet. Bu datapack **tamamen güvenlidir** ve **tick-safe** olacak şekilde tasarlanmıştır.
+
+- Sürekli çalışan ağır tick döngüleri içermez  
+- Event-based (tetiklemeli) çalışır  
+- Sunucu TPS’ini düşüren kontrolsüz işlemler barındırmaz  
+- Vanilla sınırları dışına çıkan exploit veya client-side işlem içermez  
+
+Demo sürümünde yaşanan sorunlar **güvenlik veya performans problemi değildir**.
+
+</details>
+
+---
+
+<details>
+<summary><strong>🧰 Bu datapack ne için tasarlandı?</strong></summary>
+
+Bu proje bir **sunucu yönetim datapack’idir**.
+
+Amaç:
+- Yetkili işlemlerini tek bir sistem altında toplamak  
+- Yönetim komutlarını güvenli ve kontrollü hâle getirmek  
+- Sunucu içi idareyi kolaylaştırmak  
+
+Bireysel oyuncular veya Demo sürüm kullanıcıları için **tasarlanmamıştır**.
+
+</details>
+
+---
+
+<details>
+<summary><strong>⚙️ Tek oyunculu dünyada çalışır mı?</strong></summary>
+
+Evet, **tam sürüm Minecraft Java Edition** kullanıldığı sürece çalışır.
+
+Ancak bu datapack:
+- Yönetim odaklıdır  
+- Sunucu mantığıyla tasarlanmıştır  
+
+Tek oyunculu dünyalarda “oyuncu aracı” gibi değil, **yönetici paneli** gibi davranır.
+
+</details>
+
+---
+
+<details>
+<summary><strong>📌 Neden Demo sürümü özellikle desteklenmiyor?</strong></summary>
+
+Demo sürümü:
+- Yetki sistemlerini sınırlar  
+- Gelişmiş komut zincirlerini engeller  
+- Sunucu yönetimi senaryolarını hedeflemez  
+
+Bu datapack’in kapsamı Demo sürümünün kullanım amacının **dışındadır**.
+
+</details>
+
+Demo test içindir, sunucu yönetimi değildir.
+</details>
+
+-----------------------
+<br>
+
 <h2>📜 Lisans</h2>
 
 <p>
