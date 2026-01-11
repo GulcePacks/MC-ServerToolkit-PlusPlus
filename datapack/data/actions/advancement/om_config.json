@@ -10,13 +10,13 @@
             "max": 64
           },
           "predicates": {
-            "minecraft:custom_data": "{admin_panel:1b}"
+            "minecraft:custom_data": "{ComfigUI:1b}"
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "actions:menu/open"
+    "function": "gulce_adminpower_addons:config"
   }
 }
