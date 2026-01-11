@@ -19,15 +19,6 @@
           "predicate": {
             "nbt": "{Tags:[\"op\"]}"
           }
-        },
-        {
-          "condition": "minecraft:entity_scores",
-          "entity": "this",
-          "scores": {
-            "ap_level": {
-              "min": 1
-            }
-          }
         }
       ]
     }
