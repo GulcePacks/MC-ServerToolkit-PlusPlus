@@ -1,3 +1,3 @@
-bossbar set gulce:welcome value 3
+$bossbar set $(id) value 3
 
-bossbar remove gulce:welcome
+bossbar remove $(id)
